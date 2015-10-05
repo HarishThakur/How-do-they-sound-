@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D5287D91BBAA48E00EAF48E /* cat-speech 16-19-43-065.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */; };
+		7D5287DA1BBAA48E00EAF48E /* cow-speech 16-19-43-098.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */; };
+		7D5287DB1BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */; };
+		7D5D72B21BBD31B100DAA990 /* chicken-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AC1BBD31B100DAA990 /* chicken-image.png */; };
+		7D5D72B31BBD31B100DAA990 /* chicken-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */; };
+		7D5D72B41BBD31B100DAA990 /* Duck-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AE1BBD31B100DAA990 /* Duck-image.png */; };
+		7D5D72B51BBD31B100DAA990 /* duck-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AF1BBD31B100DAA990 /* duck-speech.png */; };
+		7D5D72B61BBD31B100DAA990 /* snake-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72B01BBD31B100DAA990 /* snake-image.png */; };
+		7D5D72B71BBD31B100DAA990 /* snake-sppech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72B11BBD31B100DAA990 /* snake-sppech.png */; };
 		7DD81E571BB958A00056EE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E561BB958A00056EE23 /* main.m */; };
 		7DD81E5A1BB958A00056EE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E591BB958A00056EE23 /* AppDelegate.m */; };
 		7DD81E5D1BB958A00056EE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E5C1BB958A00056EE23 /* ViewController.m */; };
@@ -14,6 +23,10 @@
 		7DD81E621BB958A00056EE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E611BB958A00056EE23 /* Images.xcassets */; };
 		7DD81E651BB958A00056EE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E631BB958A00056EE23 /* LaunchScreen.xib */; };
 		7DD81E711BB958A10056EE23 /* How_they_sound_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E701BB958A10056EE23 /* How_they_sound_Tests.m */; };
+		7DD81E7B1BB95D3F0056EE23 /* 4-H-Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */; };
+		7DD81E7E1BB95D5A0056EE23 /* cat-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */; };
+		7DD81E811BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */; };
+		7DD81E841BB9682C0056EE23 /* AnimalSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E831BB9682C0056EE23 /* AnimalSound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat-speech 16-19-43-065.png"; path = "../../../Downloads/cat-speech 16-19-43-065.png"; sourceTree = "<group>"; };
+		7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cow-speech 16-19-43-098.png"; path = "../../../Downloads/cow-speech 16-19-43-098.png"; sourceTree = "<group>"; };
+		7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dog-speech 16-19-43-071.png"; path = "../../../Downloads/Dog-speech 16-19-43-071.png"; sourceTree = "<group>"; };
+		7D5D72AC1BBD31B100DAA990 /* chicken-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-image.png"; path = "../../../Downloads/chicken-image.png"; sourceTree = "<group>"; };
+		7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-speech.png"; path = "../../../Downloads/chicken-speech.png"; sourceTree = "<group>"; };
+		7D5D72AE1BBD31B100DAA990 /* Duck-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Duck-image.png"; path = "../../../Downloads/Duck-image.png"; sourceTree = "<group>"; };
+		7D5D72AF1BBD31B100DAA990 /* duck-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "duck-speech.png"; path = "../../../Downloads/duck-speech.png"; sourceTree = "<group>"; };
+		7D5D72B01BBD31B100DAA990 /* snake-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snake-image.png"; path = "../../../Downloads/snake-image.png"; sourceTree = "<group>"; };
+		7D5D72B11BBD31B100DAA990 /* snake-sppech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snake-sppech.png"; path = "../../../Downloads/snake-sppech.png"; sourceTree = "<group>"; };
 		7DD81E511BB958A00056EE23 /* How they sound?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How they sound?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD81E551BB958A00056EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD81E561BB958A00056EE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +62,11 @@
 		7DD81E6A1BB958A10056EE23 /* How they sound?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How they sound?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD81E6F1BB958A10056EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD81E701BB958A10056EE23 /* How_they_sound_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = How_they_sound_Tests.m; sourceTree = "<group>"; };
+		7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4-H-Dog.png"; path = "../../../Downloads/4-H-Dog.png"; sourceTree = "<group>"; };
+		7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat-3-icon.png"; path = "../../../Downloads/cat-3-icon.png"; sourceTree = "<group>"; };
+		7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_cow_adult_guernsey_128-1.png"; path = "../../../Downloads/Icon_cow_adult_guernsey_128-1.png"; sourceTree = "<group>"; };
+		7DD81E821BB9682C0056EE23 /* AnimalSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalSound.h; sourceTree = "<group>"; };
+		7DD81E831BB9682C0056EE23 /* AnimalSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalSound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +124,20 @@
 			isa = PBXGroup;
 			children = (
 				7DD81E551BB958A00056EE23 /* Info.plist */,
+				7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */,
+				7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */,
+				7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */,
+				7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */,
+				7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */,
+				7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */,
+				7D5D72AC1BBD31B100DAA990 /* chicken-image.png */,
+				7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */,
+				7D5D72AE1BBD31B100DAA990 /* Duck-image.png */,
+				7D5D72AF1BBD31B100DAA990 /* duck-speech.png */,
+				7D5D72B01BBD31B100DAA990 /* snake-image.png */,
+				7D5D72B11BBD31B100DAA990 /* snake-sppech.png */,
+				7DD81E821BB9682C0056EE23 /* AnimalSound.h */,
+				7DD81E831BB9682C0056EE23 /* AnimalSound.m */,
 				7DD81E561BB958A00056EE23 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -199,8 +240,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5287DB1BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png in Resources */,
+				7DD81E811BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png in Resources */,
+				7D5D72B51BBD31B100DAA990 /* duck-speech.png in Resources */,
 				7DD81E601BB958A00056EE23 /* Main.storyboard in Resources */,
+				7DD81E7E1BB95D5A0056EE23 /* cat-3-icon.png in Resources */,
+				7D5D72B41BBD31B100DAA990 /* Duck-image.png in Resources */,
+				7D5D72B71BBD31B100DAA990 /* snake-sppech.png in Resources */,
+				7D5287D91BBAA48E00EAF48E /* cat-speech 16-19-43-065.png in Resources */,
+				7D5D72B31BBD31B100DAA990 /* chicken-speech.png in Resources */,
+				7D5287DA1BBAA48E00EAF48E /* cow-speech 16-19-43-098.png in Resources */,
 				7DD81E651BB958A00056EE23 /* LaunchScreen.xib in Resources */,
+				7D5D72B61BBD31B100DAA990 /* snake-image.png in Resources */,
+				7D5D72B21BBD31B100DAA990 /* chicken-image.png in Resources */,
+				7DD81E7B1BB95D3F0056EE23 /* 4-H-Dog.png in Resources */,
 				7DD81E621BB958A00056EE23 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +275,7 @@
 				7DD81E5D1BB958A00056EE23 /* ViewController.m in Sources */,
 				7DD81E5A1BB958A00056EE23 /* AppDelegate.m in Sources */,
 				7DD81E571BB958A00056EE23 /* main.m in Sources */,
+				7DD81E841BB9682C0056EE23 /* AnimalSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +470,7 @@
 				7DD81E761BB958A10056EE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD81E771BB958A10056EE23 /* Build configuration list for PBXNativeTarget "How they sound?Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +479,7 @@
 				7DD81E791BB958A10056EE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

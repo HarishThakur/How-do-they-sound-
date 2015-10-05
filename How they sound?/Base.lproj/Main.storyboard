@@ -1,25 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" userLabel="Test">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="687"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How they sound?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ude-rM-TGr">
+                                <rect key="frame" x="62" y="9" width="258" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.97083822557332833" green="0.99779885748640884" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Click on any of the animal below)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U50-3c-lmj">
+                                <rect key="frame" x="62" y="64" width="258" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97083822559999999" green="0.99779885749999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LCJ-MH-wpU">
+                                <rect key="frame" x="4" y="89" width="375" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="0Al-xM-o0e">
+                                        <rect key="frame" x="-8" y="0.0" width="375" height="689"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ac8-dF-PgN">
+                                                <rect key="frame" x="219" y="115" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="4-H-Dog.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForDogSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GwV-v5-U4d"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ByL-qg-BdZ">
+                                                <rect key="frame" x="219" y="203" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="cat-3-icon.png"/>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForCatSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fNU-Ui-tUu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="blb-ey-cpx">
+                                                <rect key="frame" x="219" y="291" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="chicken-image.png"/>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForChickenSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oCB-dZ-HSy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nKb-to-up6">
+                                                <rect key="frame" x="219" y="379" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Duck-image.png"/>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForDuckSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oZf-9n-Evu"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow-speech 16-19-43-098.png" id="WOg-C9-l7K">
+                                                <rect key="frame" x="75" y="27" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dog-speech 16-19-43-071.png" id="vAm-3a-aSZ">
+                                                <rect key="frame" x="75" y="115" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat-speech 16-19-43-065.png" id="9TO-Db-tHq">
+                                                <rect key="frame" x="75" y="203" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chicken-speech.png" id="GRE-e3-U5K">
+                                                <rect key="frame" x="75" y="291" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="duck-speech.png" id="JtZ-Ci-Aqz">
+                                                <rect key="frame" x="75" y="379" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3zM-Mk-XGb">
+                                                <rect key="frame" x="219" y="27" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="Icon_cow_adult_guernsey_128-1.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForCowSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eed-3J-0eE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MPe-nv-u7j">
+                                                <rect key="frame" x="219" y="467" width="80" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="snake-image.png"/>
+                                                <connections>
+                                                    <action selector="imageButtonPressedForCatSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KOF-CN-0KX"/>
+                                                    <action selector="imageButtonPressedForSnakeSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EJd-qY-IfZ"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snake-sppech.png" id="8kA-qN-aej">
+                                                <rect key="frame" x="75" y="467" width="125" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.33318890919999999" green="0.60784313729999995" blue="0.32180498950000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="nor-0F-BLP" appends="YES" id="jJE-ea-OIf"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33318890919999999" green="0.60784313729999995" blue="0.32180498950000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.98964251893939392" green="0.98964251893939392" blue="0.98964251893939392" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="400" height="500"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="687"/>
+                    <connections>
+                        <outlet property="LabelForTip" destination="U50-3c-lmj" id="Xdj-az-mcw"/>
+                        <outlet property="imageForSoundOfCat" destination="9TO-Db-tHq" id="anf-ZD-dm5"/>
+                        <outlet property="imageForSoundOfChicken" destination="GRE-e3-U5K" id="XlT-A4-Fee"/>
+                        <outlet property="imageForSoundOfCow" destination="WOg-C9-l7K" id="5rL-Sc-wzI"/>
+                        <outlet property="imageForSoundOfDog" destination="vAm-3a-aSZ" id="pSf-c5-wlE"/>
+                        <outlet property="imageForSoundOfDuck" destination="JtZ-Ci-Aqz" id="sGR-yb-WwN"/>
+                        <outlet property="imageForSoundOfSnake" destination="8kA-qN-aej" id="deW-FR-pen"/>
+                        <outlet property="scrollViewForAnimalDetails" destination="LCJ-MH-wpU" id="92e-2W-cpJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="nor-0F-BLP"/>
             </objects>
+            <point key="canvasLocation" x="104.5" y="265.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ajY-ge-v8B">
+            <objects>
+                <viewController id="zFR-vg-78B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7SS-w4-IBz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="md1-KJ-5ob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482" y="206"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="4-H-Dog.png" width="256" height="256"/>
+        <image name="Dog-speech 16-19-43-071.png" width="600" height="249"/>
+        <image name="Duck-image.png" width="128" height="128"/>
+        <image name="Icon_cow_adult_guernsey_128-1.png" width="128" height="128"/>
+        <image name="cat-3-icon.png" width="256" height="256"/>
+        <image name="cat-speech 16-19-43-065.png" width="600" height="249"/>
+        <image name="chicken-image.png" width="128" height="128"/>
+        <image name="chicken-speech.png" width="600" height="249"/>
+        <image name="cow-speech 16-19-43-098.png" width="600" height="249"/>
+        <image name="duck-speech.png" width="600" height="249"/>
+        <image name="snake-image.png" width="128" height="128"/>
+        <image name="snake-sppech.png" width="600" height="249"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
