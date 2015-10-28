@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolBox/AudioToolBox.h>
+//#import <CoreGraphics/CoreGraphics.h>
 
 @interface ViewController : UIViewController
 {
@@ -23,6 +26,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageForSoundOfChicken;
 @property (weak, nonatomic) IBOutlet UIImageView *imageForSoundOfDuck;
 @property (weak, nonatomic) IBOutlet UIImageView *imageForSoundOfSnake;
+
 
 @property (weak, nonatomic) IBOutlet UILabel *labelForTip;
 @end

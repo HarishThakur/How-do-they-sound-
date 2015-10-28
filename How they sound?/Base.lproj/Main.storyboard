@@ -13,17 +13,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How they sound?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ude-rM-TGr">
-                                <rect key="frame" x="62" y="9" width="258" height="62"/>
+                                <rect key="frame" x="55" y="9" width="258" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="0.97083822557332833" green="0.99779885748640884" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Click on any of the animal below)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U50-3c-lmj">
-                                <rect key="frame" x="62" y="64" width="258" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.97083822559999999" green="0.99779885749999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LCJ-MH-wpU">
@@ -37,7 +30,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ac8-dF-PgN">
                                                 <rect key="frame" x="219" y="115" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="4-H-Dog.png">
+                                                <state key="normal" title="dog" image="4-H-Dog.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -47,7 +40,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ByL-qg-BdZ">
                                                 <rect key="frame" x="219" y="203" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="cat-3-icon.png"/>
+                                                <state key="normal" title="cat" image="cat-3-icon.png"/>
                                                 <connections>
                                                     <action selector="imageButtonPressedForCatSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fNU-Ui-tUu"/>
                                                 </connections>
@@ -55,7 +48,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="blb-ey-cpx">
                                                 <rect key="frame" x="219" y="291" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="chicken-image.png"/>
+                                                <state key="normal" title="chicken" image="chicken-image.png"/>
                                                 <connections>
                                                     <action selector="imageButtonPressedForChickenSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oCB-dZ-HSy"/>
                                                 </connections>
@@ -63,7 +56,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nKb-to-up6">
                                                 <rect key="frame" x="219" y="379" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Duck-image.png"/>
+                                                <state key="normal" title="duck" image="Duck-image.png"/>
                                                 <connections>
                                                     <action selector="imageButtonPressedForDuckSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oZf-9n-Evu"/>
                                                 </connections>
@@ -91,7 +84,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3zM-Mk-XGb">
                                                 <rect key="frame" x="219" y="27" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="Icon_cow_adult_guernsey_128-1.png">
+                                                <state key="normal" title="cow" image="Icon_cow_adult_guernsey_128-1.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -101,7 +94,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MPe-nv-u7j">
                                                 <rect key="frame" x="219" y="467" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="snake-image.png"/>
+                                                <state key="normal" title="snake" image="snake-image.png"/>
                                                 <connections>
                                                     <action selector="imageButtonPressedForCatSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KOF-CN-0KX"/>
                                                     <action selector="imageButtonPressedForSnakeSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EJd-qY-IfZ"/>
@@ -120,6 +113,23 @@
                                     </view>
                                 </subviews>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j77-jR-y3q">
+                                <rect key="frame" x="321" y="30" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next &gt;">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bsz-65-O8n" kind="modal" id="Bvj-ma-wA6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Click on any of the animal below)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U50-3c-lmj">
+                                <rect key="frame" x="44" y="60" width="258" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.97083822559999999" green="0.99779885749999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.33318890919999999" green="0.60784313729999995" blue="0.32180498950000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.98964251893939392" green="0.98964251893939392" blue="0.98964251893939392" alpha="1" colorSpace="calibratedRGB"/>
@@ -143,19 +153,48 @@
             </objects>
             <point key="canvasLocation" x="104.5" y="265.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="ajY-ge-v8B">
+        <!--Animate View Controller-->
+        <scene sceneID="UDy-kd-jtc">
             <objects>
-                <viewController id="zFR-vg-78B" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7SS-w4-IBz">
+                <viewController id="bsz-65-O8n" customClass="AnimateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="btZ-2x-INA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robo1.png" id="W4x-NO-Qmr">
+                                <rect key="frame" x="0.0" y="93" width="320" height="187"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2nG-V5-7o1">
+                                <rect key="frame" x="15" y="31" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="ax5-bA-RAS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UUX-sX-F3i">
+                                <rect key="frame" x="111" y="66" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Animate Robo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressedForRoboAnimation:" destination="bsz-65-O8n" eventType="touchUpInside" id="0Nm-GL-A5Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="W4x-NO-Qmr" id="oyO-O9-hIR"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="md1-KJ-5ob" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbw-ho-gky" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="482" y="206"/>
+            <point key="canvasLocation" x="661" y="212"/>
         </scene>
     </scenes>
     <resources>
@@ -169,6 +208,7 @@
         <image name="chicken-speech.png" width="600" height="249"/>
         <image name="cow-speech 16-19-43-098.png" width="600" height="249"/>
         <image name="duck-speech.png" width="600" height="249"/>
+        <image name="robo1.png" width="100" height="130"/>
         <image name="snake-image.png" width="128" height="128"/>
         <image name="snake-sppech.png" width="600" height="249"/>
     </resources>

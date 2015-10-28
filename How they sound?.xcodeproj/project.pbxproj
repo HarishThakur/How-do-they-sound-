@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D5287D91BBAA48E00EAF48E /* cat-speech 16-19-43-065.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */; };
-		7D5287DA1BBAA48E00EAF48E /* cow-speech 16-19-43-098.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */; };
-		7D5287DB1BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */; };
-		7D5D72B21BBD31B100DAA990 /* chicken-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AC1BBD31B100DAA990 /* chicken-image.png */; };
-		7D5D72B31BBD31B100DAA990 /* chicken-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */; };
-		7D5D72B41BBD31B100DAA990 /* Duck-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AE1BBD31B100DAA990 /* Duck-image.png */; };
-		7D5D72B51BBD31B100DAA990 /* duck-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72AF1BBD31B100DAA990 /* duck-speech.png */; };
-		7D5D72B61BBD31B100DAA990 /* snake-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72B01BBD31B100DAA990 /* snake-image.png */; };
-		7D5D72B71BBD31B100DAA990 /* snake-sppech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D72B11BBD31B100DAA990 /* snake-sppech.png */; };
+		7D14835C1BDA15D300845442 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483571BDA15D300845442 /* cat.wav */; };
+		7D14835D1BDA15D300845442 /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483581BDA15D300845442 /* chicken.wav */; };
+		7D14835E1BDA15D300845442 /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483591BDA15D300845442 /* cow.wav */; };
+		7D14835F1BDA15D300845442 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D14835A1BDA15D300845442 /* dog.wav */; };
+		7D1483601BDA15D300845442 /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D14835B1BDA15D300845442 /* duck.wav */; };
+		7D14836B1BDA2EFE00845442 /* robo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483611BDA2EFE00845442 /* robo1.png */; };
+		7D14836C1BDA2EFE00845442 /* robo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483621BDA2EFE00845442 /* robo2.png */; };
+		7D14836D1BDA2EFE00845442 /* robo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483631BDA2EFE00845442 /* robo3.png */; };
+		7D14836E1BDA2EFE00845442 /* robo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483641BDA2EFE00845442 /* robo4.png */; };
+		7D14836F1BDA2EFE00845442 /* robo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483651BDA2EFE00845442 /* robo5.png */; };
+		7D1483701BDA2EFE00845442 /* robo6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483661BDA2EFE00845442 /* robo6.png */; };
+		7D1483711BDA2EFE00845442 /* robo7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483671BDA2EFE00845442 /* robo7.png */; };
+		7D1483721BDA2EFE00845442 /* robo8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483681BDA2EFE00845442 /* robo8.png */; };
+		7D1483731BDA2EFE00845442 /* robo9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483691BDA2EFE00845442 /* robo9.png */; };
+		7D1483741BDA2EFE00845442 /* robo10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D14836A1BDA2EFE00845442 /* robo10.png */; };
+		7D1483771BDA2FFD00845442 /* AnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1483761BDA2FFD00845442 /* AnimateViewController.m */; };
+		7D1483791BDA35DC00845442 /* calc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7D1483781BDA35DC00845442 /* calc.gif */; };
+		7D6CD1541BD9F75000A33598 /* 4-H-Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1481BD9F75000A33598 /* 4-H-Dog.png */; };
+		7D6CD1551BD9F75000A33598 /* cat-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1491BD9F75000A33598 /* cat-3-icon.png */; };
+		7D6CD1561BD9F75000A33598 /* cat-speech 16-19-43-065.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14A1BD9F75000A33598 /* cat-speech 16-19-43-065.png */; };
+		7D6CD1571BD9F75000A33598 /* chicken-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14B1BD9F75000A33598 /* chicken-image.png */; };
+		7D6CD1581BD9F75000A33598 /* chicken-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14C1BD9F75000A33598 /* chicken-speech.png */; };
+		7D6CD1591BD9F75000A33598 /* cow-speech 16-19-43-098.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14D1BD9F75000A33598 /* cow-speech 16-19-43-098.png */; };
+		7D6CD15A1BD9F75000A33598 /* Dog-speech 16-19-43-071.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14E1BD9F75000A33598 /* Dog-speech 16-19-43-071.png */; };
+		7D6CD15B1BD9F75000A33598 /* Duck-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD14F1BD9F75000A33598 /* Duck-image.png */; };
+		7D6CD15C1BD9F75000A33598 /* duck-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1501BD9F75000A33598 /* duck-speech.png */; };
+		7D6CD15D1BD9F75000A33598 /* Icon_cow_adult_guernsey_128-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1511BD9F75000A33598 /* Icon_cow_adult_guernsey_128-1.png */; };
+		7D6CD15E1BD9F75000A33598 /* snake-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1521BD9F75000A33598 /* snake-image.png */; };
+		7D6CD15F1BD9F75000A33598 /* snake-sppech.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CD1531BD9F75000A33598 /* snake-sppech.png */; };
+		7D6CD1631BD9FB9D00A33598 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6CD1621BD9FB9D00A33598 /* AudioToolbox.framework */; };
+		7D6CD1651BDA0A9A00A33598 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6CD1641BDA0A9A00A33598 /* AVFoundation.framework */; };
+		7D6CD1671BDA0AB900A33598 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6CD1661BDA0AB900A33598 /* AVKit.framework */; };
+		7D6CD1691BDA0C9800A33598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6CD1681BDA0C9800A33598 /* CoreGraphics.framework */; };
 		7DD81E571BB958A00056EE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E561BB958A00056EE23 /* main.m */; };
 		7DD81E5A1BB958A00056EE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E591BB958A00056EE23 /* AppDelegate.m */; };
 		7DD81E5D1BB958A00056EE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E5C1BB958A00056EE23 /* ViewController.m */; };
@@ -23,9 +47,6 @@
 		7DD81E621BB958A00056EE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E611BB958A00056EE23 /* Images.xcassets */; };
 		7DD81E651BB958A00056EE23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E631BB958A00056EE23 /* LaunchScreen.xib */; };
 		7DD81E711BB958A10056EE23 /* How_they_sound_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E701BB958A10056EE23 /* How_they_sound_Tests.m */; };
-		7DD81E7B1BB95D3F0056EE23 /* 4-H-Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */; };
-		7DD81E7E1BB95D5A0056EE23 /* cat-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */; };
-		7DD81E811BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */; };
 		7DD81E841BB9682C0056EE23 /* AnimalSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD81E831BB9682C0056EE23 /* AnimalSound.m */; };
 /* End PBXBuildFile section */
 
@@ -40,15 +61,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat-speech 16-19-43-065.png"; path = "../../../Downloads/cat-speech 16-19-43-065.png"; sourceTree = "<group>"; };
-		7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cow-speech 16-19-43-098.png"; path = "../../../Downloads/cow-speech 16-19-43-098.png"; sourceTree = "<group>"; };
-		7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dog-speech 16-19-43-071.png"; path = "../../../Downloads/Dog-speech 16-19-43-071.png"; sourceTree = "<group>"; };
-		7D5D72AC1BBD31B100DAA990 /* chicken-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-image.png"; path = "../../../Downloads/chicken-image.png"; sourceTree = "<group>"; };
-		7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-speech.png"; path = "../../../Downloads/chicken-speech.png"; sourceTree = "<group>"; };
-		7D5D72AE1BBD31B100DAA990 /* Duck-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Duck-image.png"; path = "../../../Downloads/Duck-image.png"; sourceTree = "<group>"; };
-		7D5D72AF1BBD31B100DAA990 /* duck-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "duck-speech.png"; path = "../../../Downloads/duck-speech.png"; sourceTree = "<group>"; };
-		7D5D72B01BBD31B100DAA990 /* snake-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snake-image.png"; path = "../../../Downloads/snake-image.png"; sourceTree = "<group>"; };
-		7D5D72B11BBD31B100DAA990 /* snake-sppech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snake-sppech.png"; path = "../../../Downloads/snake-sppech.png"; sourceTree = "<group>"; };
+		7D1483571BDA15D300845442 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		7D1483581BDA15D300845442 /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chicken.wav; sourceTree = "<group>"; };
+		7D1483591BDA15D300845442 /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cow.wav; sourceTree = "<group>"; };
+		7D14835A1BDA15D300845442 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
+		7D14835B1BDA15D300845442 /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = duck.wav; sourceTree = "<group>"; };
+		7D1483611BDA2EFE00845442 /* robo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo1.png; sourceTree = "<group>"; };
+		7D1483621BDA2EFE00845442 /* robo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo2.png; sourceTree = "<group>"; };
+		7D1483631BDA2EFE00845442 /* robo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo3.png; sourceTree = "<group>"; };
+		7D1483641BDA2EFE00845442 /* robo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo4.png; sourceTree = "<group>"; };
+		7D1483651BDA2EFE00845442 /* robo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo5.png; sourceTree = "<group>"; };
+		7D1483661BDA2EFE00845442 /* robo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo6.png; sourceTree = "<group>"; };
+		7D1483671BDA2EFE00845442 /* robo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo7.png; sourceTree = "<group>"; };
+		7D1483681BDA2EFE00845442 /* robo8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo8.png; sourceTree = "<group>"; };
+		7D1483691BDA2EFE00845442 /* robo9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo9.png; sourceTree = "<group>"; };
+		7D14836A1BDA2EFE00845442 /* robo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robo10.png; sourceTree = "<group>"; };
+		7D1483751BDA2FFD00845442 /* AnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimateViewController.h; path = ../AnimateViewController.h; sourceTree = "<group>"; };
+		7D1483761BDA2FFD00845442 /* AnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimateViewController.m; path = ../AnimateViewController.m; sourceTree = "<group>"; };
+		7D1483781BDA35DC00845442 /* calc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calc.gif; sourceTree = "<group>"; };
+		7D6CD1481BD9F75000A33598 /* 4-H-Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-H-Dog.png"; sourceTree = "<group>"; };
+		7D6CD1491BD9F75000A33598 /* cat-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-3-icon.png"; sourceTree = "<group>"; };
+		7D6CD14A1BD9F75000A33598 /* cat-speech 16-19-43-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat-speech 16-19-43-065.png"; sourceTree = "<group>"; };
+		7D6CD14B1BD9F75000A33598 /* chicken-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken-image.png"; sourceTree = "<group>"; };
+		7D6CD14C1BD9F75000A33598 /* chicken-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken-speech.png"; sourceTree = "<group>"; };
+		7D6CD14D1BD9F75000A33598 /* cow-speech 16-19-43-098.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cow-speech 16-19-43-098.png"; sourceTree = "<group>"; };
+		7D6CD14E1BD9F75000A33598 /* Dog-speech 16-19-43-071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dog-speech 16-19-43-071.png"; sourceTree = "<group>"; };
+		7D6CD14F1BD9F75000A33598 /* Duck-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duck-image.png"; sourceTree = "<group>"; };
+		7D6CD1501BD9F75000A33598 /* duck-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duck-speech.png"; sourceTree = "<group>"; };
+		7D6CD1511BD9F75000A33598 /* Icon_cow_adult_guernsey_128-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_cow_adult_guernsey_128-1.png"; sourceTree = "<group>"; };
+		7D6CD1521BD9F75000A33598 /* snake-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snake-image.png"; sourceTree = "<group>"; };
+		7D6CD1531BD9F75000A33598 /* snake-sppech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snake-sppech.png"; sourceTree = "<group>"; };
+		7D6CD1621BD9FB9D00A33598 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7D6CD1641BDA0A9A00A33598 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7D6CD1661BDA0AB900A33598 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7D6CD1681BDA0C9800A33598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7DD81E511BB958A00056EE23 /* How they sound?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How they sound?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD81E551BB958A00056EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD81E561BB958A00056EE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,9 +108,6 @@
 		7DD81E6A1BB958A10056EE23 /* How they sound?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How they sound?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD81E6F1BB958A10056EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD81E701BB958A10056EE23 /* How_they_sound_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = How_they_sound_Tests.m; sourceTree = "<group>"; };
-		7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4-H-Dog.png"; path = "../../../Downloads/4-H-Dog.png"; sourceTree = "<group>"; };
-		7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat-3-icon.png"; path = "../../../Downloads/cat-3-icon.png"; sourceTree = "<group>"; };
-		7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_cow_adult_guernsey_128-1.png"; path = "../../../Downloads/Icon_cow_adult_guernsey_128-1.png"; sourceTree = "<group>"; };
 		7DD81E821BB9682C0056EE23 /* AnimalSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalSound.h; sourceTree = "<group>"; };
 		7DD81E831BB9682C0056EE23 /* AnimalSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalSound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +117,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6CD1691BDA0C9800A33598 /* CoreGraphics.framework in Frameworks */,
+				7D6CD1671BDA0AB900A33598 /* AVKit.framework in Frameworks */,
+				7D6CD1651BDA0A9A00A33598 /* AVFoundation.framework in Frameworks */,
+				7D6CD1631BD9FB9D00A33598 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +137,10 @@
 		7DD81E481BB958A00056EE23 = {
 			isa = PBXGroup;
 			children = (
+				7D6CD1681BDA0C9800A33598 /* CoreGraphics.framework */,
+				7D6CD1661BDA0AB900A33598 /* AVKit.framework */,
+				7D6CD1641BDA0A9A00A33598 /* AVFoundation.framework */,
+				7D6CD1621BD9FB9D00A33598 /* AudioToolbox.framework */,
 				7DD81E531BB958A00056EE23 /* How they sound? */,
 				7DD81E6D1BB958A10056EE23 /* How they sound?Tests */,
 				7DD81E521BB958A00056EE23 /* Products */,
@@ -112,6 +163,8 @@
 				7DD81E591BB958A00056EE23 /* AppDelegate.m */,
 				7DD81E5B1BB958A00056EE23 /* ViewController.h */,
 				7DD81E5C1BB958A00056EE23 /* ViewController.m */,
+				7D1483751BDA2FFD00845442 /* AnimateViewController.h */,
+				7D1483761BDA2FFD00845442 /* AnimateViewController.m */,
 				7DD81E5E1BB958A00056EE23 /* Main.storyboard */,
 				7DD81E611BB958A00056EE23 /* Images.xcassets */,
 				7DD81E631BB958A00056EE23 /* LaunchScreen.xib */,
@@ -124,18 +177,34 @@
 			isa = PBXGroup;
 			children = (
 				7DD81E551BB958A00056EE23 /* Info.plist */,
-				7DD81E7A1BB95D3F0056EE23 /* 4-H-Dog.png */,
-				7DD81E7C1BB95D5A0056EE23 /* cat-3-icon.png */,
-				7DD81E801BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png */,
-				7D5287D61BBAA48E00EAF48E /* cat-speech 16-19-43-065.png */,
-				7D5287D71BBAA48E00EAF48E /* cow-speech 16-19-43-098.png */,
-				7D5287D81BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png */,
-				7D5D72AC1BBD31B100DAA990 /* chicken-image.png */,
-				7D5D72AD1BBD31B100DAA990 /* chicken-speech.png */,
-				7D5D72AE1BBD31B100DAA990 /* Duck-image.png */,
-				7D5D72AF1BBD31B100DAA990 /* duck-speech.png */,
-				7D5D72B01BBD31B100DAA990 /* snake-image.png */,
-				7D5D72B11BBD31B100DAA990 /* snake-sppech.png */,
+				7D1483781BDA35DC00845442 /* calc.gif */,
+				7D1483611BDA2EFE00845442 /* robo1.png */,
+				7D1483621BDA2EFE00845442 /* robo2.png */,
+				7D1483631BDA2EFE00845442 /* robo3.png */,
+				7D1483641BDA2EFE00845442 /* robo4.png */,
+				7D1483651BDA2EFE00845442 /* robo5.png */,
+				7D1483661BDA2EFE00845442 /* robo6.png */,
+				7D1483671BDA2EFE00845442 /* robo7.png */,
+				7D1483681BDA2EFE00845442 /* robo8.png */,
+				7D1483691BDA2EFE00845442 /* robo9.png */,
+				7D14836A1BDA2EFE00845442 /* robo10.png */,
+				7D1483571BDA15D300845442 /* cat.wav */,
+				7D1483581BDA15D300845442 /* chicken.wav */,
+				7D1483591BDA15D300845442 /* cow.wav */,
+				7D14835A1BDA15D300845442 /* dog.wav */,
+				7D14835B1BDA15D300845442 /* duck.wav */,
+				7D6CD1481BD9F75000A33598 /* 4-H-Dog.png */,
+				7D6CD1491BD9F75000A33598 /* cat-3-icon.png */,
+				7D6CD14A1BD9F75000A33598 /* cat-speech 16-19-43-065.png */,
+				7D6CD14B1BD9F75000A33598 /* chicken-image.png */,
+				7D6CD14C1BD9F75000A33598 /* chicken-speech.png */,
+				7D6CD14D1BD9F75000A33598 /* cow-speech 16-19-43-098.png */,
+				7D6CD14E1BD9F75000A33598 /* Dog-speech 16-19-43-071.png */,
+				7D6CD14F1BD9F75000A33598 /* Duck-image.png */,
+				7D6CD1501BD9F75000A33598 /* duck-speech.png */,
+				7D6CD1511BD9F75000A33598 /* Icon_cow_adult_guernsey_128-1.png */,
+				7D6CD1521BD9F75000A33598 /* snake-image.png */,
+				7D6CD1531BD9F75000A33598 /* snake-sppech.png */,
 				7DD81E821BB9682C0056EE23 /* AnimalSound.h */,
 				7DD81E831BB9682C0056EE23 /* AnimalSound.m */,
 				7DD81E561BB958A00056EE23 /* main.m */,
@@ -240,20 +309,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5287DB1BBAA48E00EAF48E /* Dog-speech 16-19-43-071.png in Resources */,
-				7DD81E811BB95E420056EE23 /* Icon_cow_adult_guernsey_128-1.png in Resources */,
-				7D5D72B51BBD31B100DAA990 /* duck-speech.png in Resources */,
+				7D14835E1BDA15D300845442 /* cow.wav in Resources */,
+				7D6CD15B1BD9F75000A33598 /* Duck-image.png in Resources */,
 				7DD81E601BB958A00056EE23 /* Main.storyboard in Resources */,
-				7DD81E7E1BB95D5A0056EE23 /* cat-3-icon.png in Resources */,
-				7D5D72B41BBD31B100DAA990 /* Duck-image.png in Resources */,
-				7D5D72B71BBD31B100DAA990 /* snake-sppech.png in Resources */,
-				7D5287D91BBAA48E00EAF48E /* cat-speech 16-19-43-065.png in Resources */,
-				7D5D72B31BBD31B100DAA990 /* chicken-speech.png in Resources */,
-				7D5287DA1BBAA48E00EAF48E /* cow-speech 16-19-43-098.png in Resources */,
+				7D1483711BDA2EFE00845442 /* robo7.png in Resources */,
+				7D14836D1BDA2EFE00845442 /* robo3.png in Resources */,
+				7D14836B1BDA2EFE00845442 /* robo1.png in Resources */,
+				7D14835D1BDA15D300845442 /* chicken.wav in Resources */,
+				7D14836F1BDA2EFE00845442 /* robo5.png in Resources */,
+				7D6CD15D1BD9F75000A33598 /* Icon_cow_adult_guernsey_128-1.png in Resources */,
+				7D1483791BDA35DC00845442 /* calc.gif in Resources */,
+				7D6CD15C1BD9F75000A33598 /* duck-speech.png in Resources */,
+				7D1483721BDA2EFE00845442 /* robo8.png in Resources */,
+				7D6CD1591BD9F75000A33598 /* cow-speech 16-19-43-098.png in Resources */,
+				7D6CD15F1BD9F75000A33598 /* snake-sppech.png in Resources */,
+				7D6CD1571BD9F75000A33598 /* chicken-image.png in Resources */,
+				7D14836C1BDA2EFE00845442 /* robo2.png in Resources */,
+				7D6CD15E1BD9F75000A33598 /* snake-image.png in Resources */,
+				7D1483741BDA2EFE00845442 /* robo10.png in Resources */,
+				7D6CD1561BD9F75000A33598 /* cat-speech 16-19-43-065.png in Resources */,
+				7D6CD15A1BD9F75000A33598 /* Dog-speech 16-19-43-071.png in Resources */,
+				7D6CD1581BD9F75000A33598 /* chicken-speech.png in Resources */,
+				7D14835F1BDA15D300845442 /* dog.wav in Resources */,
+				7D14835C1BDA15D300845442 /* cat.wav in Resources */,
+				7D1483731BDA2EFE00845442 /* robo9.png in Resources */,
+				7D14836E1BDA2EFE00845442 /* robo4.png in Resources */,
+				7D1483701BDA2EFE00845442 /* robo6.png in Resources */,
+				7D1483601BDA15D300845442 /* duck.wav in Resources */,
 				7DD81E651BB958A00056EE23 /* LaunchScreen.xib in Resources */,
-				7D5D72B61BBD31B100DAA990 /* snake-image.png in Resources */,
-				7D5D72B21BBD31B100DAA990 /* chicken-image.png in Resources */,
-				7DD81E7B1BB95D3F0056EE23 /* 4-H-Dog.png in Resources */,
+				7D6CD1541BD9F75000A33598 /* 4-H-Dog.png in Resources */,
+				7D6CD1551BD9F75000A33598 /* cat-3-icon.png in Resources */,
 				7DD81E621BB958A00056EE23 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +359,7 @@
 			files = (
 				7DD81E5D1BB958A00056EE23 /* ViewController.m in Sources */,
 				7DD81E5A1BB958A00056EE23 /* AppDelegate.m in Sources */,
+				7D1483771BDA2FFD00845442 /* AnimateViewController.m in Sources */,
 				7DD81E571BB958A00056EE23 /* main.m in Sources */,
 				7DD81E841BB9682C0056EE23 /* AnimalSound.m in Sources */,
 			);

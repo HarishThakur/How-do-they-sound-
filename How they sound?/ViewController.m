@@ -8,12 +8,16 @@
 
 #import "ViewController.h"
 #import "AnimalSound.h"
+#import <AVFoundation/AVFoundation.h>
+
 
 @interface ViewController ()
-
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    NSString *buttonName;
+    AVAudioPlayer *audioPlayer;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -51,6 +55,7 @@
     [self.imageForSoundOfDuck setHidden:YES];
     [self.imageForSoundOfSnake setHidden:YES];
 
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
     [self displaySoundOfAnimal:cow];
 }
@@ -72,7 +77,9 @@
     [self.imageForSoundOfDuck setHidden:YES];
     [self.imageForSoundOfSnake setHidden:YES];
 
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
+    
     [self displaySoundOfAnimal:dog];
 }
 
@@ -93,6 +100,7 @@
     [self.imageForSoundOfDuck setHidden:YES];
     [self.imageForSoundOfSnake setHidden:YES];
 
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
     [self displaySoundOfAnimal:cat];
 }
@@ -109,6 +117,7 @@
     [self.imageForSoundOfDuck setHidden:YES];
     [self.imageForSoundOfSnake setHidden:YES];
     
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
     [self displaySoundOfAnimal:chicken];
 }
@@ -124,6 +133,7 @@
     [self.imageForSoundOfDuck setHidden:NO];
     [self.imageForSoundOfSnake setHidden:YES];
     
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
     [self displaySoundOfAnimal:duck];
 }
@@ -140,28 +150,9 @@
     [self.imageForSoundOfDuck setHidden:YES];
     [self.imageForSoundOfSnake setHidden:NO];
     
+    buttonName = [sender currentTitle];
     [_labelForTip setText:@""];
     [self displaySoundOfAnimal:snake];
-}
-
-/**
- *  Method to perform action if touch began
- *
- *  @param touches is the random tap on screen
- *  @param event is an object of UIEvent that is responsible for event handling
- */
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    
-}
-
-/**
- *  Method to perform action if touch moves
- *
- *  @param touches is the random tap on screen
- *  @param event is an object of UIEvent that is responsible for event handling
- */
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-    
 }
 
 /**
@@ -184,17 +175,6 @@
         }
     }
     
-//        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureUpdated:)];
-//        tapGesture.delegate = self;
-//        tapGesture.numberOfTapsRequired = 1;
-//        tapGesture.numberOfTouchesRequired = 1;
-//        [self.imageForSoundOfCow setHidden:YES];
-//        [self.imageForSoundOfDog setHidden:YES];
-//        [self.imageForSoundOfCat setHidden:YES];
-//        [self.imageForSoundOfChicken setHidden:YES];
-//        [self.imageForSoundOfDuck setHidden:YES];
-//        [self.imageForSoundOfSnake setHidden:YES];
-//        [_labelForTip setText:@"(Click on any of the animal below)"];
 }
 
 /**
@@ -207,25 +187,22 @@
 }
 
 
-//- (void)tapGestureUpdated:(UITapGestureRecognizer *)tapGesture {
-//    
-//    
-//    [self.imageForSoundOfCow setHidden:YES];
-//    [self.imageForSoundOfDog setHidden:YES];
-//    [self.imageForSoundOfCat setHidden:YES];
-//    [self.imageForSoundOfChicken setHidden:YES];
-//    [self.imageForSoundOfDuck setHidden:YES];
-//    [self.imageForSoundOfSnake setHidden:YES];
-//    [_labelForTip setText:@"(Click on any of the animal below)"];
-//}
-
-
 /**
  *  Method to log the name and sound of the animal in console
  *
  *  @param animal holds the name and sound of the animal
  */
 - (void)displaySoundOfAnimal : (AnimalSound *)animal {
+
+    if(![buttonName  isEqual: @"snake"]) {
+    NSString *soundPath =[[NSBundle mainBundle] pathForResource:buttonName ofType:@"wav"];
+    NSURL *soundURL = [NSURL fileURLWithPath:soundPath];
+    
+    NSError *error = nil;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:&error];
+    [audioPlayer play];
+    }
+    
     NSLog(@"%@ sounds %@", animal.name,animal.sound);
 }
 
